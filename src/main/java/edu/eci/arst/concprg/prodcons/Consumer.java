@@ -34,7 +34,6 @@ public class Consumer extends Thread{
                     try {
                         Thread.sleep(10000);
                     } catch (InterruptedException ex) {
-                        System.out.println("1");
                         Logger.getLogger(Producer.class.getName()).log(Level.SEVERE, null, ex);
 
                 }
